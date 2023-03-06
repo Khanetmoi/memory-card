@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('asset/forestbg.jpg');
+    color: aliceblue;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 96vw;
+    height: 5vh;
+    margin-inline: auto;
+    padding-block: 0 10px;
+    
+}
+
+li {
+    list-style: none;
+    font-size: 2rem;
+}
+
+section {
+    text-align: center;
+    height: 80vh;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+.board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 85%;
+    background-color: transparent;
+    margin-inline: auto;
+    margin-block: auto;
+    
+}
+
+.card {
+   background-color: #EBC860;
+   width: 23%;
+   margin-inline: auto;
+   height: 23%;
+   margin-block: auto;
+}
+
+.card:hover {
+    background-image: url('asset/bird 1.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
