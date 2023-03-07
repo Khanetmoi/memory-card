@@ -29,7 +29,7 @@ h1{
     font-size: 2rem;
 }
 
-.board {
+#board {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,7 +51,7 @@ h1{
 }
 
 .card:hover {
-    background-image: url('asset/bird 1.jpg');
+    background-image: url('asset/bird1.jpg');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
